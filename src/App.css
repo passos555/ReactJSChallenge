@@ -1,15 +1,19 @@
-body {
-  background: #bdb8b8;
+* {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.header {
-  background-color: #4a90e2;
-  padding: 20px 10px;
-  color: white;
+body {
+  background: #979797;
+  font-family: 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
 }
 
-
-
+header {
+  height: 64px;
+  background: #4A90E2;
+}
 
 

@@ -1,12 +1,15 @@
 import React from 'react';
 
+import logo from '../assets/facebook.png';
 
 
 function Header() {
   return (
-    <div className="header">
-      
-    </div>
+    <header>
+      <nav>
+        <img src={logo} alt="Facebook Logo"/>
+      </nav>
+    </header>
   )
 }
 
