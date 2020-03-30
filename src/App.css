@@ -5,15 +5,25 @@
 }
 
 body {
-  background: #979797;
+  background: #eceaea;
   font-family: 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased !important;
 }
 
-header {
+header.main-header {
   height: 64px;
-  background: #4A90E2;
+  background: #4a90e2;
+  padding: 0 50px;
 }
 
+header.main-header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
 
+header.main-header nav span {
+  color: #fff;
+}
