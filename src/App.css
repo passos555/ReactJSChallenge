@@ -24,6 +24,76 @@ header.main-header nav {
   height: 100%;
 }
 
-header.main-header nav span {
+header.main-header nav strong {
   color: #fff;
+}
+
+div.postlist {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+div.post {
+  display: flex;
+  flex-direction: column;
+  width: 700px;
+  background: #fff;
+  margin: 20px 20px 0;
+  padding: 20px 20px 20px;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, .25);
+}
+
+div.post div.author-info {
+  display: flex;
+}
+
+div.post div.author-info img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+div.post div.post-info {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+}
+
+div.post div.post-info strong {
+  font-size: 14px;
+  color: #4A4A4A;
+}
+
+div.post div.post-info span {
+  font-size: 11px;
+  color:#9A9A9A;
+}
+
+div.post div.post-content {
+  padding: 20px 0;
+  font-size: 14px;
+  color: #3E3E3E;
+  border-bottom: 1px solid #EEEEEE;
+}
+
+div.comments {
+  padding-top: 15px;
+  display: flex;
+}
+
+div.comments img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+div.comments p {
+  background: #EEEEEE;
+  margin-left: 10px;
+  padding: 10px 10px;
+  border-radius: 20px;
+  font-size: 14px;
+  color: #3E3E3E;
 }

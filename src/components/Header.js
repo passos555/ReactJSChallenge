@@ -7,7 +7,7 @@ function Header() {
     <header className="main-header">
       <nav>
         <img src={logo} alt="Facebook Logo" />
-        <span>Meu Perfil</span>
+        <strong>Meu Perfil</strong>
       </nav>
     </header>
   );
